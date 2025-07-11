@@ -106,3 +106,5 @@ To make your GitHub repository more professional and complete, consider adding t
 - All calculations are based on values and outputs from the specified Voltus report and the provided `.lib` file.
 - Slew normalization and energy averaging are crucial for accurate internal power estimation.
 - The methodology can be adapted for other digital design power verification tasks.
+- 
+## Due to privacy concerns of Cadence, the .lib files and generated .rpt files are on the virtual machine and cannot be shared anywhere else. 
