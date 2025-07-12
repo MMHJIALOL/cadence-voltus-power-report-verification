@@ -3,7 +3,7 @@
 ## Project Title: Cross-Verification of Power Results — Manual Calculations vs. Voltus Output
 
 ### Author: Ishaan Singhal  
-### Date: July 12, 2025 (Done while in summer intern from June- August)
+### Date: July 12, 2025 (Done during summer intern from June- August)
 
 ## Overview
 
