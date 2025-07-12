@@ -1,0 +1,27 @@
+Instance: AO2/add_94_37_I3/g695
+Cell: ADDFXL
+Liberty file: /icd/ssv_pe_t1b/ishaans/Project/LAB/voltus_labs_CUI/design/postRouteOpt.design.dat/libs/mmmc/slow.lib_ecsm
+Internal power: 0.00022649mW
+Switching power: 0.00010457mW
+Leakage power: 0.00006704mW;
+Total power: 0.00039810mW;
+
+Direction Voltage(V) Duty    Density     Cap(pf)  Rise slew(ns) Fall slew(ns) Power(mW)  Net  Pin
+   Input 0.89999998 0.50000000 1.250000e+07 0.01253276 0.16853331 0.13266666          0  AO2/MULT16_1[10]  A
+   Input 0.89999998 0.50000000 1.250000e+07 0.01331213 0.17493332 0.13799999          0  AO2/SUM_2[10]  B
+   Input 0.89999998 0.49950001 2.495728e+07 0.00537630 0.15680000 0.15026666          0  AO2/add_94_37_I3/n_19  CI
+  Output 0.89999998 0.49980000 2.497864e+07 0.00595853 0.16786666 0.15986667 0.00006028  AO2/add_94_37_I3/n_21  CO
+  Output 0.89999998 0.50000000 3.119660e+07 0.00350592 0.12906666 0.12253332 0.00004430  AO2/plus_94_37_I3[10]  S
+
+Leakage power
+When  Duty  Power  Power Pin
+ (generic)      1      1*6.7041e-08      (default)
+
+Internal power
+From    To    when  activity/ns  duty  weight(w)  w*energy  power(mW)  Power Pin
+ A  ->  CO  ((!B&CI)|(B&!CI)) : 0.0249786   0.5   0.250214   1.00363e-15   2.50693e-05   (default)
+ B  ->  CO  ((!A&CI)|(A&!CI)) : 0.0249786   0.5   0.250214   1.01288e-15   2.53003e-05   (default)
+ CI  ->  CO  ((!A&B)|(A&!B)) : 0.0249786   0.5   0.499572   2.00732e-15   5.01401e-05   (default)
+ A  ->  S  (1) : 0.0311966   1   0.250214   1.0069e-15   3.14117e-05   (default)
+ B  ->  S  (1) : 0.0311966   1   0.250214   1.01607e-15   3.1698e-05   (default)
+ CI  ->  S  (1) : 0.0311966   1   0.499572   2.01523e-15   6.28684e-05   (default)
